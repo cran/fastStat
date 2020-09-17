@@ -4,8 +4,16 @@
 \alias{uv_cox}
 \title{Looping for Univariable Cox Regression}
 \usage{
-uv_cox(data, time, event, variable, adjust, round = 3,
-  p_threshold = 0.05, order_by.hr = TRUE)
+uv_cox(
+  data,
+  time,
+  event,
+  variable,
+  adjust,
+  round = 3,
+  p_threshold = 0.05,
+  order_by.hr = TRUE
+)
 }
 \arguments{
 \item{data}{data}

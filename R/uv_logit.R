@@ -34,7 +34,7 @@ uv_logit <- function(data,y,variable,adjust,round=3,
             }else{
                 class=c(class,0)
             }
-            formu=paste0(y,'~',variable[i])
+            formu=paste0(y,'~`',variable[i],'`')
             logit.i=glm(as.formula(formu),
                         data = data, family = binomial(link = "logit"))
             logit.sum=summary(logit.i)

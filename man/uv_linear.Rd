@@ -4,8 +4,15 @@
 \alias{uv_linear}
 \title{Looping for Univariable Logistic Regression}
 \usage{
-uv_linear(data, y, variable, adjust, round = 3, p_threshold = 0.05,
-  order_by.beta = TRUE)
+uv_linear(
+  data,
+  y,
+  variable,
+  adjust,
+  round = 3,
+  p_threshold = 0.05,
+  order_by.beta = TRUE
+)
 }
 \arguments{
 \item{data}{data}

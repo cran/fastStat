@@ -4,8 +4,15 @@
 \alias{uv_logit}
 \title{Looping for Univariable Logistic Regression}
 \usage{
-uv_logit(data, y, variable, adjust, round = 3, p_threshold = 0.05,
-  order_by.or = TRUE)
+uv_logit(
+  data,
+  y,
+  variable,
+  adjust,
+  round = 3,
+  p_threshold = 0.05,
+  order_by.or = TRUE
+)
 }
 \arguments{
 \item{data}{data}

@@ -72,7 +72,7 @@ table_one <- function(data,group,
                       weighted,
                       statistics=FALSE){
     #missing value delete
-    data=delet_na_df.mtr(data)
+    #data=delet_na_df.mtr(data)
     #if weighted
     if (!missing(weighted)){
         data=flat_strech(data,weighted)

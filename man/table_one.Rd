@@ -4,10 +4,33 @@
 \alias{table_one}
 \title{Get Summary Table}
 \usage{
-table_one(data, group, mean_sd, median_q4, median_range, count_percent,
-  mean, median, max, min, sd, q25, q75, count, percent, round = 2,
-  count.percent.direction = "v", t.test, anova, wilcox.test,
-  kruskal.test, chisq.test, fisher.test, weighted, statistics = FALSE)
+table_one(
+  data,
+  group,
+  mean_sd,
+  median_q4,
+  median_range,
+  count_percent,
+  mean,
+  median,
+  max,
+  min,
+  sd,
+  q25,
+  q75,
+  count,
+  percent,
+  round = 2,
+  count.percent.direction = "v",
+  t.test,
+  anova,
+  wilcox.test,
+  kruskal.test,
+  chisq.test,
+  fisher.test,
+  weighted,
+  statistics = FALSE
+)
 }
 \arguments{
 \item{data}{data that will be summarized}

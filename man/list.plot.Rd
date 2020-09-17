@@ -9,7 +9,9 @@ list.plot(x, label = "x")
 \arguments{
 \item{x}{vector, dataframe or matrix}
 
-\item{label}{labels for points. If missing, defaulted, no labels will be added. If label equals x, id will be added. If label equals y, y value will be added.}
+\item{label}{labels for points. If label equals x, defaulted, id will be added.
+If label equals y, y value will be added. If label equals xy, id and y value
+will be added.}
 }
 \value{
 sactter

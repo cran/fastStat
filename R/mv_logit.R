@@ -17,7 +17,7 @@ mv_logit <- function(data,y,x,direction='no',summary=TRUE,...){
     #delet na
     data=delet_na_df.mtr(data)
     if (missing(x)) x=colnames(data) %not% y
-    formu=paste0(y,'~',paste0(x,collapse = '+'))
+    formu=paste0(y,'~`',paste0(x,collapse = '`+`'),'`')
     logit=glm(as.formula(formu),data = data,
               family = binomial(link = "logit"))
     if (direction=='no'){

@@ -1,7 +1,9 @@
 #' Scatter Plot for Single Value
 #'
 #' @param x vector, dataframe or matrix
-#' @param label labels for points. If missing, defaulted, no labels will be added. If label equals x, id will be added. If label equals y, y value will be added.
+#' @param label labels for points. If label equals x, defaulted, id will be added.
+#'     If label equals y, y value will be added. If label equals xy, id and y value
+#'     will be added.
 #' @importFrom graphics plot text
 #' @importFrom ggrepel geom_text_repel
 #' @importFrom ggplot2 ggplot aes_string geom_point ggtitle theme_classic

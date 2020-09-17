@@ -1,6 +1,6 @@
 Package: fastStat
 Title: Faster for Statistic Work
-Version: 1.3
+Version: 1.4
 Authors@R: 
     c(
     person("Jing","Zhang",role = c("aut", "cre"),email = "zj391120@163.com"),
@@ -16,15 +16,17 @@ Description: When we do statistic work, we need to see the structure of the data
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 6.1.1
+RoxygenNote: 7.1.1
 Imports: set, reshape2, do, plyr, car, e1071, tseries, survival,
-        ggplot2, ggrepel
+        ggplot2, ggrepel, PredictABEL, survIDINRI
 URL: https://github.com/yikeshu0611/fastStat
 BugReports: https://github.com/yikeshu0611/fastStat/issues
+Suggests: rms
+Depends: survC1
 NeedsCompilation: no
-Packaged: 2019-11-16 12:36:58 UTC; asus
+Packaged: 2020-09-17 14:35:02 UTC; asus
 Author: Jing Zhang [aut, cre],
   Zhi Jin [aut]
 Maintainer: Jing Zhang <zj391120@163.com>
 Repository: CRAN
-Date/Publication: 2019-11-22 10:50:02 UTC
+Date/Publication: 2020-09-17 15:00:13 UTC
